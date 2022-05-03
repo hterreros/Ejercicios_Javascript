@@ -1,7 +1,7 @@
 console.log('Hola desde el ejercicio03')
 //Ejemplo de switch
 
-let diaSemana=7
+let diaSemana=6;
 switch(diaSemana){
 case 1:
     console.log('Lunes');
@@ -20,6 +20,12 @@ case 5:
 break;
 case 6:
 case 7:
+    (diaSemana === 6)? console.log('Es Sabado') :console.log('Es Domingo')
+    // if (diaSemana === 6){
+    //     console.log('Es Sabado');
+    // } else {
+    //     console.log('Es Domingo');
+    // }
     console.log('Es Sabado o Domingo - dia de descanso');
 break;
 default:
