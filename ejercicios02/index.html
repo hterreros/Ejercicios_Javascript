@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log('----------------------');
+        console.log('Estructuras de control');
+        console.log('----------------------');
+        //= valor a una variable
+        //== estoy comparando dos variables
+        //=== estoy comparando dos variables del mismo tipo
+        //!== contrario o diferente
+
+        let validacion=true;
+        let numero=9;
+        if (validacion !== true){
+            console.log('El valor es positivo');            
+        } else{
+            console.log('El valor es negativo');       
+        }
+        console.log('-----------------');
+        console.log('-----------------');
+        if (numero===5){
+            console.log('Es numero 5'); 
+        } else if (numero===7){
+            console.log('Es numero 7');
+        } else{
+            console.warn('No es un numero definido');
+        }
+        console.log('-----------------');
+        console.log('-----------------');
+        // operador and &&
+        // operador or || 
+        let condicionUno = 50;
+        let condicionDos = 100;
+        if (condicionUno === 50 || condicionDos === 10){
+            console.log('se cumple condiciones'); 
+        } else {
+            console.log('no se cumple condiciones');
+        }
+        console.log('-----------------');
+        console.log('-----------------');
+        let numeroRango =10;
+        if (numeroRango<=7){
+            console.log('Este numero'+numeroRango+' esta dentro del rango de los 7 primeros'); 
+        } else {
+            console.log('Este numero'+numeroRango+' esta fuera del rango de los 7 primeros'); 
+        }
+        console.log('-----------------');
+        console.log('-----------------');
+        if (10%2!==0){
+            console.log('Es par');
+        } else{
+            console.log('Es impar');
+        }
+
+    </script>
+</body>
+</html>
